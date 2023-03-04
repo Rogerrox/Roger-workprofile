@@ -60,3 +60,35 @@ p {
 
 }
     
+.profile-picture{
+    display: flex-wrap
+    align-items: right;
+    width: 40%;
+}
+
+.aboutme {
+   align-content: end;
+    display: inline-flexbox;
+    justify-content: flex-end;
+    display: flex-wrap;
+}
+
+@media screen and (max-width: 576px) {
+    .card{
+        width: 50%;
+    }
+    header{
+        background-color: hsl(56, 38%, 58%);
+    }
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+ .float-left {
+        float: right;
+        margin-left: 25px;
+    } 
