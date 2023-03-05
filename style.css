@@ -45,25 +45,28 @@ a {
 p {
     font-size: 24px;
 }
- 
-.profile-picture{
-    display:flex;
+
+.profile-picture {
+    display: flex;
     align-items: right;
     width: 30%;
 }
 
 .about-me {
-   align-content: end;
+    align-content: end;
     display: inline-flexbox;
-    justify-content: flex-end;
+
+    display: inline-flexbox;
     display: flex-wrap;
+
 }
 
 @media screen and (max-width: 576px) {
-    .card{
+    .card {
         width: 50%;
     }
-    header{
+
+    header {
         background-color: hsl(56, 38%, 58%);
     }
 }
@@ -75,18 +78,18 @@ p {
     text-align: center;
 }
 
- .history {
-    vertical-align:1111111 ;
+.history {
+    vertical-align: 1111111;
     margin-left: 400px;
-    
-    }
-    
+
+}
+
 .repo {
     width: 400px;
     height: 300px;
 }
 
 .even {
-    display:flex;
-    
+    display: flex;
+
 }
